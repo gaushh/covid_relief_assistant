@@ -1,0 +1,63 @@
+version: "2.0"
+nlu:
+- lookup: subjects
+  examples: |
+    - accountancy
+    - art and craft
+    - bio-botany
+    - bio-zoology
+    - biology
+    - biotechnology
+    - botany
+    - business studies
+    - chemistry
+    - chemistry practical
+    - commerce
+    - computer application
+    - computer applications
+    - computer science
+    - computer science [python]
+    - computer science[c++]
+    - computer studies
+    - conceptual skills
+    - economic applications
+    - economics
+    - english
+    - english : rhymes
+    - english core
+    - english elective
+    - english elective (code-001)
+    - english language
+    - english-a
+    - english-b
+    - entrepreneurship
+    - environmental science
+    - foundation of information technology
+    - general knowledge
+    - geography
+    - history
+    - history : themes in world history
+    - history & civics
+    - informatics practices
+    - knowllypedia
+    - mathematics
+    - maths
+    - moral stories
+    - multimedia and web technology
+    - natural science
+    - paper1
+    - paper2
+    - paper3
+    - paper4
+    - physical education
+    - physical science
+    - physics
+    - political science
+    - psychology
+    - science
+    - social science
+    - social studies
+    - sociology
+    - sociology: indian society
+    - sociology: social change and development in india
+    - zoology

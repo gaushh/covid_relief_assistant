@@ -1,0 +1,1238 @@
+version: "2.0"
+
+nlu:
+
+
+- synonym: haryana
+  examples: |
+    - haryana
+    - Ambala
+    - Bhiwani
+    - Charkhi Dadri
+    - Faridabad
+    - Fatehabad
+    - Gurugram
+    - Gurgaon
+    - Hisar
+    - Jhajjar
+    - Jind
+    - Kaithal
+    - Karnal
+    - Kurukshetra
+    - Mahendragarh
+    - Nuh
+    - Palwal
+    - Panchkula
+    - Panipat
+    - Rewari
+    - Rohtak
+    - Sirsa
+    - Sonipat
+    - Yamunanagar
+
+- synonym: uttarakhand
+  examples: |
+    - uttarakhand
+    - Dehradun
+    - Haridwar
+    - Chamoli
+    - Rudraprayag
+    - Tehri Garhwal
+    - Uttarkashi
+    - Pauri Garhwal
+    - Almora
+    - Nainital
+    - Pithoragarh
+    - Udham Singh Nagar
+    - Bageshwar
+    - Champawat
+    - uttarakhand
+
+- synonym: Gujrat
+  examples: |
+    - Gujrat
+    - Gandhinagar
+    - Visnagar
+    - Mehsana
+    - Himatnagar
+    - PALANPUR
+    - Modasa
+    - Bayad
+    - Bopal
+    - Nadiad
+    - Anand
+    - Surendranagar
+    - Waghodia
+    - Bharuch
+    - Ankleshwar
+    - Bharuch
+    - Hansot
+    - Godhra
+    - Dahod
+    - Zalod
+    - Chhotaudepur
+    - Valsad
+    - Pardi
+    - Vapi
+    - Navsari
+    - Chikhli
+    - vyara
+    - Savar Kundala
+    - Amreli
+    - Junagadh
+    - Veraval
+    - Rajkot
+    - Bhuj
+    - ahmedabad
+    - morbi
+    - Vadodara
+    - rajkot
+    - Bhavnagar
+    - jamnagar
+    - SMC
+
+
+- synonym: madhya_pradesh
+  examples: |
+    - Madhya Pradesh
+    - MP
+    - Dehradun
+    - Haridwar
+    - Chamo
+    - Agar Malwa
+    - Alirajpur
+    - Anuppur
+    - Ashoknagar
+    - Balaghat
+    - Barwani
+    - Betul
+    - Bhind
+    - Bhopal
+    - Burhanpur
+    - Chhatarpur
+    - Chhindwara
+    - Damoh
+    - Datia
+    - Dewas
+    - Dhar
+    - Dindori
+    - Guna
+    - Gwalior
+    - Harda
+    - Hoshangabad
+    - Indore
+    - Jabalpur
+    - Jhabua
+    - Katni
+    - Khandwa
+    - Khargone
+    - Mandla
+    - Mandsaur
+    - Morena
+    - Narsinghpur
+    - Neemuch
+    - Panna
+    - Raisen
+    - Rajgarh
+    - Ratlam
+    - Rewa
+    - Sagar
+    - Satna
+    - Sehore
+    - Seoni
+    - Shahdol
+    - Shajapur
+    - Sheopur
+    - Shivpuri
+    - Sidhi
+    - Singrauli
+    - Tikamgarh
+    - Ujjain
+    - Umaria
+    - Vidisha
+
+
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+
+
+
+
+
+
+
+- intent: faq/Transmission_-_Airborne
+  examples: |
+    - is covid airborne
+    - who covid airborne
+    - is covid in the air
+    - can the virus that causes covid be transmitted through the air
+    - can covid travel by wind
+    - is covid airborne or droplet
+
+
+- intent: faq/Transmission_-_Survivability:_Temperature
+  examples: |
+    - can covid survive in heat
+    - can covid live in the freezer
+    - does covid die in freezer
+    - does covid survive in freezer
+    - can covid live in freezer
+    - can covid live in heat
+    - is there a connection between covid and environment temperature
+    - can high or low temperatures kill covid
+    - can the heat from a hand dryer kill covid
+    - what temperature kills the virus that causes covid
+    - does covid survive freezing
+    - can covid survive cold
+    - does covid die in heat
+    - how long will covid survive on items you put in the freezer
+    - what is the temperature required to kill covid
+    - will high temperatures kill covid
+
+- intent: faq/Transmission_-_Survivability:_Surfaces
+  examples: |
+    - does covid live on clothes
+    - can covid live on paper
+    - can covid live on hair
+    - was covid found in toilet paper
+    - can covid live on objects
+    - should i clean high touch surfaces
+    - how long does the virus survive on surfaces
+    - is it safe to receive a package from an area where covid has been reported
+    - should i disinfect my groceries
+    - do i need to wash my clothes right after encountering other people
+    - can i get covid from a package sent from china
+    - can you get covid from touching money
+    - how long does covid stay alive on surfaces
+    - am i at risk for covid from mail packages or products
+    - is it safe to receive a package from any area where covid has been reported
+    - does covid live on surfaces
+    - can covid live on surfaces
+    - does covid live on paper
+    - can covid live on clothes
+    - can covid be sent through the mail
+    - how long does covid live on surfaces
+    - can you get covid from packages
+    - how long does the covid virus live for under normal conditions
+    - how long does covid live on produce
+
+- intent: faq/Treatment_-_Flu_Treatments_for_COVID
+  examples: |
+    - will a pneumonia or flu vaccine help protect against covid
+    - why wouldnt tamiflu help against covid
+
+- intent: faq/Testing_-_Necessity_for_Pets
+  examples: |
+    - should i get my pet tested for covid
+    - do i need to get my pet tested for covid
+    - are covid tests being used on pets
+    - will pets be tested for covid
+    - am i able to test my pet for covid
+    - can i test my pet for covid
+
+- intent: faq/Nomenclature_-_Pandemic_Definition
+  examples: |
+    - is covid a pandemic
+    - what does it mean that covid is a global pandemic
+    - who covid pandemic
+    - shouldnt covid be declared as a pandemic
+    - is covid a pandemic
+    - what will be the breaking point that will declare covid a pandemic
+    - why is covid called a pandemic and not an epidemic
+    - what is a pandemic
+    - when would covid be considered a pandemic
+    - is there a reason that covid is called a pandemic now
+    - is there a difference between covid being an epidemic and a pandemic
+    - why is covid a pandemic
+
+- intent: faq/Societal_Response_-_Health_Departments
+  examples: |
+    - what should health care providers laboratories and health departments do
+    - what are the steps that a hospital should take after covid outbreak
+    - how should medical centers respond to a covid patient
+    - are there any specific procedures for hospitals to follow
+    - how are hospitals dealing with covid
+    - do hospitals have special steps for covid patients
+
+- intent: faq/Prevention_-_Public_Transportation
+  examples: |
+    - should i avoid public transportation
+    - is public transport best avoided given the covid outbreak
+
+- intent: faq/Other_-_Overseas_COVID_Death
+  examples: |
+    - my family member died from covid while overseas what are the requirements for returning the body to the united states
+    - what should i do if my family member died from covid while overseas
+    - how can i get my family member who died of covid overseas
+    - what do i do if my family member dies from covid in foreign country
+    - will i be able to get the remains of my relative if they died of covid in a foreign country
+    - is there a procedure to follow if covid kills one of my family members overseas
+
+- intent: faq/Individual_Response_-_Someone_in_the_Household_Infected
+  examples: |
+    - what can i do if my loved one suspects they have covid
+    - what should i do if someone in my house gets sick with covid
+    - what if my child or someone else in the home is sick with symptoms of covid
+    - how can i stay safe if someone i live with gets covid
+    - if a family member gets sick from covid what do i do
+    - are there any steps i should take if i think someone i live with has covid
+
+- intent: faq/Testing_-_Testing_Everyone
+  examples: |
+    - why cant we just test everyone in the us
+    - why are we still not testing everyone for covid
+
+- intent: faq/Transmission_-_Duration_of_Contagiousness_After_Recovery
+  examples: |
+    - how long is someone contagious after getting covid
+    - can someone who has had covid spread the illness to others
+    - how long is someone infectious after recovery from covid symptoms
+    - is it possible to spread the covid after recovering from it
+    - will i get covid by being near someone who recovered from covid
+    - are recovered covid patients still contagious
+    - can i be infected by someone who recovered from covid
+    - do recovered covid patients infect people
+
+- intent: faq/Transmission_-_Demographics:_Blood_Type
+  examples: |
+    - are some blood types able to fight this covid better than other blood types
+    - is it true that o+ blood types are immune to the covid
+    - has the link between blood group and the severity of covid effects been confirmed
+    - are certain blood types more resistant to acquiring the covid when exposed than others
+    - what is the relationship between blood type and risk of covid infection
+    - do certain blood types have less chance of getting covid
+
+- intent: faq/Origin_-_Country
+  examples: |
+    - where covid originated
+    - where covid came from
+    - where covid really come from
+    - where covid come from
+    - where covid started
+    - what is the source of the virus
+    - where did covid originate
+    - where covid originate
+    - where covid start
+    - where did covid come from
+    - did covid really originate from the province of china or just get discovered there
+    - how did the covid virus appear
+    - is china really the origin of covid
+    - where was covid found
+
+- intent: faq/Speculation_-_Pandemic_Duration
+  examples: |
+    - will covid end soon
+    - will covid end
+    - when covid will be over
+    - when covid lockdown ends
+    - will covid go away
+    - when covid will end
+    - will covid ever go away
+    - when covid over
+    - will covid ever end
+    - when covid ends
+    - when covid is over
+    - how long will we have to keep social distancing
+    - will covid disappear
+    - when covid end
+    - when covid will stop
+    - will covid be gone by summer
+    - will covid go away in spring
+    - will covid die out
+    - what is the official end date to covid
+    - how long will we be on lockdown for covid
+    - how long do you think the covid pandemic will last in america
+    - when will the covid virus end
+    - when will covid end and covid 20 start
+    - is covid likely to be at pandemic proportions for two years
+    - will covid be gone this year
+    - how long will social distancing for covid last
+    - will covid stay and last forever
+    - when will life get back to normal after the onset of covid
+
+- intent: faq/Prevention_-_Going_to_Work
+  examples: |
+    - when should we identify ourselves as being sick and stay at home
+    - is it risky to continue going to work
+    - at what point should i stop going to work
+    - how do i know if i should stop going to work
+    - can i still go to work
+    - is it still safe to work
+    - should i go to work
+    - should i go to work if there is an outbreak in my community
+
+- intent: faq/Treatment_-_Existence_of_Treatments
+  examples: |
+    - what are the treatments for covid
+    - what treatments are available for covid
+    - are there any fda approved drug products or medicines to treat covid
+    - which are the medicines currently being used to treat covid
+    - how should you treat the covid at home
+    - how can covid patients be treated
+    - is covid curable
+    - is there a treatment for covid yet
+    - has a treatment been released to treat covid
+    - is there a way to get rid of covid after being infected
+
+- intent: faq/Prevention_-_Alternative_Disinfection
+  examples: |
+    - what alternatives do i have if there are no hand sanitizers available
+    - should i use soap and water or a hand sanitizer to protect against covid
+    - how effective are alternative disinfection methods
+    - what cleaning products should i use to protect against covid
+    - does alcohol kill covid
+    - can i kill covid without hand sanitizer
+    - is it possible to disinfect surfaces with alternative disinfection methods
+    - is there a way to kill covid without hand sanitizer
+    - how do i disinfect if i dont have hand sanitizer
+    - other than hand sanitizer how can i protect myself from covid
+    - will alternative disinfection work against covid
+    - are there ways other than hand sanitizer and soap to kill covid
+
+- intent: faq/Prevention_-_Safety_of_Blood_Donations
+  examples: |
+    - is it safe for me to donate blood during the covid pandemic
+    - what steps are being taken to protect the u.s. blood supply from the virus that causes covid
+
+- intent: faq/Testing_-_Importance
+  examples: |
+    - why covid testing
+    - why covid testing is important
+    - if antibody tests are not used for diagnosis or exclusion of covid infection what is their purpose
+    - why are we testing for covid
+    - do covid tests help
+    - what is the point of testing people for covid
+
+- intent: faq/Transmission_-_Pets
+  examples: |
+    - can humans get covid from dogs or cats
+    - can animals carry the virus that causes covid on their skin or fur
+    - can i get covid from my pet
+    - can humans become infected with the covid from an animal source
+    - can i get covid from my pet or other animals
+    - are pets from a shelter safe to adopt
+    - can i get covid from my pets or other animals
+
+- intent: faq/Prevention_-_Time_Until_Vaccine
+  examples: |
+    - when covid vaccine
+    - is there a vaccine
+    - are there any vaccines or other medical products to prevent covid
+    - is there a vaccine drug or treatment for covid
+    - has the covid vaccine been found
+    - how soon will a vaccine for covid be ready
+    - what is the current status of the covid vaccine
+    - how long will it take for scientists to develop a vaccine to covid
+    - is there a vaccine for the covid
+    - are we still waiting for a vaccine for covid
+    - has someone made a vaccine for covid yet
+
+- intent: faq/Other_-_Bovine_Covid_Structure
+  examples: |
+    - what is the molecular structure of bovine covid
+    - what is the size of bovine covid
+    - do we know bovine covids structure
+    - is the structure of bovine covid known
+    - have scientists determined the structure of bovine covid
+    - how big is bovine covid
+
+- intent: faq/Nomenclature_-_Scientific_Name
+  examples: |
+    - what is the genus of the sars covid
+    - what is the scientific name of covid
+
+- intent: faq/Transmission_-_Corpses
+  examples: |
+    - should covid death be cremated
+    - do covid deaths have to be cremated
+    - am i at risk if i touch someone who died of covid after they have passed away
+    - are dead covid patients still contagious
+    - is it possible to get covid from someone who died of covid
+    - can covid be transmitted after death
+    - can a dead covid patient infect me
+
+- intent: faq/Reporting_-_Time_First_Identified
+  examples: |
+    - when was covid first identified
+    - when was sars cov first identified
+    - how long did it take to identify the cause of covid
+    - when was the novel covid first reported
+    - where and when was covid first identified
+    - when was the first case of covid identified
+    - where was covid first identified
+
+- intent: faq/Individual_Response_-_Dealing_with_Stress
+  examples: |
+    - how can my family cope with the added stress
+    - how can i ease my anxiety during pandemics
+    - what are your tips for staying productive while staying home during the covid pandemic
+    - how are you coping during the covid crisis
+    - what are some useful tips for working at home due to the covid
+    - how do i stay positive with covid
+    - how can i be happy sane and productive amid the covid lockdown
+    - how do we cope with stress during covid
+    - what is the best way to deal with stress during lockdown
+
+- intent: faq/Comparison_-_Earlier_Existence
+  examples: |
+    - has covid been in humans for years
+    - has covid been around longer
+    - what covs were known to infect humans before december 2019
+    - has covid always existed
+    - has covid been around for a while
+    - did covid exist years before scientists discovered it
+    - how long has covid existed
+
+- intent: faq/Origin_-_Source_Animal
+  examples: |
+    - did covid come from bats
+    - did covid start with bats
+    - did covid come from snakes
+    - did covid come from a bat
+    - did covid come from animals
+    - did covid start with bats
+    - did covid come from eating bats
+    - in what species did the covid virus likely originate
+    - did covid come from pangolin
+    - did covid start with a bat
+    - what is the true origin of the covid virus and is the wuhan bat snacking hypothesis credible
+
+- intent: faq/Societal_Effects_-_Continuing_Learning_During_COVID
+  examples: |
+    - while schools out how can i help my child continue learning
+    - how can i prepare in case my childs school child care facility or university is dismissed
+    - if school is cancelled how will my kid learn
+    - what steps should i take to ensure my child keeps learning
+    - how can i make sure my child continues to get their education
+    - is my child still able to learn while in lockdown
+
+- intent: faq/Having_COVID_-_Ability_to_Recover
+  examples: |
+    - does covid go away
+    - is covid deadly
+    - if infected with covid can you survive it and recover
+    - had covid and recovered
+    - has anyone actually recovered from the covid virus
+    - can old people with covid survive
+    - what is the rate of recovery from the covid virus
+
+- intent: faq/Comparison_-_SARS
+  examples: |
+    - how much similarity the covid genome sequence has with sars cov
+    - how are covid and sars cov similar
+    - which covid is sars
+    - whats the difference between covid and sars cov 2
+    - is sars and covid the same thing
+    - what is the relation between sars cov and covid
+    - are sars cov and covid related
+
+- intent: faq/Transmission_-_Water
+  examples: |
+    - can covid live in water
+    - can covid spread through water
+    - can the covid virus spread through drinking water
+    - is it possible for water to transmit covid
+    - could covid potentially be transmitted through water
+    - can i get covid from water
+
+- intent: faq/Transmission_-_Survivability:_Seasonality
+  examples: |
+    - will covid go away in the summer
+    - will covid come back in the fall
+    - does covid die in sunlight
+    - will covid end in summer
+    - will covid be seasonal
+    - will warm weather stop the outbreak of covid
+    - is covid seasonal
+    - given the evidence so far will covid most likely go away in the summer
+
+- intent: faq/Treatment_-_Antibiotics
+  examples: |
+    - are antibiotics effective in preventing or treating covid
+    - if a covid patient progresses to pneumonia what antibiotics if any have proven to be effective
+    - are antibiotics effective in preventing or treating the covid
+    - can covid be treated with antibiotics
+    - is covid weak to antibiotics
+    - can antibiotics kill covid
+
+- intent: faq/Prevention_-_Household_Preparation
+  examples: |
+    - what steps can my family take to reduce our risk of getting covid
+    - how can my family and i prepare for covid
+    - what are some tips to help prepare in the event that covid becomes a pandemic
+    - what can i do to prepare my family for a covid outbreak
+    - how should people in the same house get ready for covid
+    - is there anything i can do to help my family prepare for covid
+    - how can families get ready for lockdown
+
+- intent: faq/Testing_-_Criteria_to_be_Tested
+  examples: |
+    - should i be tested for covid
+    - when to get tested for covid
+    - who should get tested for covid
+    - is it imperative to be tested for covid
+    - do i need to get tested
+    - how do i know if i need to be tested
+    - are there requirements to be tested
+    - can i test myself for covid just in case
+
+- intent: faq/Origin_-_5G_Network_Conspiracy
+  examples: |
+    - does this pandemic have anything to do with the 5g network
+    - is it true that 5g spreads the covid
+
+- intent: faq/Testing_-_Methodology
+  examples: |
+    - how covid test is done
+    - how covid test is done
+    - how covid is tested
+    - how is covid diagnosed
+    - what kind of test is being used to diagnose if i have covid
+    - what kind of test can diagnose covid
+    - what type of test was initially developed to screen for covid
+    - in addition to oral swabs which tests detected the presence of covid virus
+    - how do testing kits for covid detect the virus
+    - are blood tests useful to diagnose covid
+    - how is covid tested
+
+- intent: faq/Transmission_-_Mosquitoes
+  examples: |
+    - can covid be transmitted by mosquitoes
+    - can mosquitoes transmit covid
+    - can mosquitoes or ticks spread the virus that causes covid
+    - how likely am i to get covid from mosquitoes
+    - nan
+    - is it possible to get covid from mosquitoes
+    - will mosquitoes give me covid
+
+- intent: faq/Societal_Response_-_Reason_for_Lockdown
+  examples: |
+    - why covid lockdown
+    - should all americans be under stay at home orders
+
+- intent: faq/Prevention_-_Use_of_Facemask
+  examples: |
+    - should i get a face mask
+    - should i wear a facemask
+    - until when should i wear a mask after recovering from an illness with respiratory symptoms
+    - should i use a mask
+    - should i wear a face covering or face mask when i go out in public
+    - should i purchase personal protective equipment for me and my family
+    - should i wear a face mask in public
+    - should children wear masks
+    - does cdc recommend the use of facemask or face coverings to prevent covid
+    - should i wear a mask to protect myself
+    - can wearing a face mask prevent covid
+    - do masks help prevent the spread of covid
+
+- intent: faq/Having_COVID_-_Recovery_Time
+  examples: |
+    - how long does it take to recover
+    - for how long do people stay infected with covid
+
+- intent: faq/Transmission_-_Contact_Lenses
+  examples: |
+    - should i stop wearing contacts and switch to glasses
+    - should contact lens wearers take special precautions to prevent covid
+    - can contacts put me at risk for covid
+    - are contacts likely to spread covid
+    - is it better to wear glasses than contacts
+    - am i more likely to get covid from contacts
+
+- intent: faq/Prevention_-_DIY_Hand_Sanitizer
+  examples: |
+    - can i make my own hand sanitizer
+    - if i cant find hand sanitizer in the store can i make my own
+    - can i use vodka as hand sanitizer
+    - should i make my own hand sanitizer if i cant find it in the stores
+    - can homemade hand sanitizer replace real hand sanitizer
+    - is diy hand sanitizer useful
+
+- intent: faq/Transmission_-_Infection_by_Asymptomatic_Carriers
+  examples: |
+    - can someone spread the virus without being sick
+    - can i catch the virus from being in an enclosed space in close proximity to someone who doesnt have respiratory symptoms
+    - how can someone spread covid when asymptomatic
+    - can covid be caught from a person who has no symptoms
+    - are covid carriers contagious
+    - is it possible to be infected by an asymptomatic person
+
+- intent: faq/Comparison_-_Worse_than_Flu
+  examples: |
+    - why covid is worse than the flu
+    - is covid worse than the flu
+    - is covid worse than flu
+    - why covid is worse than flu
+    - why covid is worse than flu
+    - is covid more contagious than the flu
+    - why worry about covid when the flu kills so many people
+    - is covid worse than spanish flu
+    - is covid worse then swine flu
+    - will the covid be as bad as the 1918 spanish flu pandemic that infected 500000000 people
+    - how is the covid virus more dangerous than the regular flu
+
+- intent: faq/Transmission_-_Food_Contamination
+  examples: |
+    - can covid be transmitted through food
+    - can covid spread through food
+    - can covid live on food
+    - can covid be transmitted through food
+    - is it safe to order take out
+    - is the u.s. food supply safe
+    - are food products produced in the united states or other countries affected by covid a risk for the spread of covid
+    - can i get covid from a food worker handling my food
+    - can i get the covid from food food packaging or food containers and preparation area
+    - will there be animal food shortages
+    - can i get covid through food
+    - can i get sick with covid if it is on food
+    - can the virus that causes covid be spread through food
+    - can food or clothes be contaminated with covid
+
+- intent: faq/Treatment_-_Disinfectant_Injections
+  examples: |
+    - can disinfectant sprays or wipes be used on my skin injected inhaled or ingested to prevent or treat covid
+    - should i spray myself or my kids with disinfectant
+    - will ingesting or injecting disinfectants protect me against covid or kill covid if i already have it
+    - is any disinfectant injection available for covid
+    - should i ingest disinfectant to cure covid
+    - is it true that i can get rid of covid by drinking cleaners
+    - can disinfectant sprays cure me if i have covid
+
+- intent: faq/Prevention_-_Vaccine:_Usefulness
+  examples: |
+    - if novel covid antibodies may or may not offer long term immunity how would a vaccine help
+    - is it possible to develop a vaccine for covid if its proved that even survivors dont develop immunity to this disease
+    - will covid vaccines be effective since a recovered person can contract the virus again
+
+- intent: faq/Prevention_-_General
+  examples: |
+    - what can i do to protect myself and prevent the spread of disease
+    - how can i prevent covid
+    - whats the best way to prevent covid
+    - how can i make sure to not get affected with the novel covid virus
+    - how do i keep safe from covid
+    - how do i stop covid
+    - how can we take precaution to stop covid
+    - how do we protect ourselves
+    - how are you avoiding gaining the covid
+    - what advice should we follow against covid
+    - is there a way to not get covid
+    - how is covid prevented
+
+- intent: faq/Transmission_-_Demographics:_General
+  examples: |
+    - who is at higher risk
+    - what is the risk of my child becoming sick with covid
+    - how likely am i to catch covid
+    - are pregnant women more susceptible to the covid virus and will it harm the fetus
+    - am i at risk for serious complications from covid if i smoke cigarettes
+    - if i vape tobacco or nicotine am i at risk for complications from covid
+    - are smokers or vapers at higher risk
+    - are kids more at risk
+    - is covid especially harmful for pregnant women
+    - who is at higher risk for serious illness from covid
+    - is my child with an underlying medical condition or special healthcare need at higher risk for severe illness from covid
+    - are people with disabilities at higher risk
+    - for whom does the covid pose a great threat
+    - who is at greater risk of dying from covid
+    - how does being a smoker impact covid patient outcomes
+    - who is at risk of developing severe illness
+    - who is covid killing
+    - how much more susceptible are smokers to succumbing to covid
+    - is asthma a risk factor for covid
+    - is covid dangerous for those who vape
+    - who is the most affected by covid
+    - is covid more serious if you smoke and do people who vape face the same or less risks
+    - is covid killing more liberals or conservatives
+    - would atheists be more likely to get covid
+    - does a history of smoking tobacco increase ones risk of catching covid
+    - is obesity a top risk factor in covid hospitalizations
+
+- intent: faq/Transmission_-_Reason_for_Medical_Workers_being_Infected
+  examples: |
+    - why are medical workers getting sick with or dying from covid if theyre wearing protective gear
+    - why exposure risk of covid is very high for icu staff and what precautions should be taken
+    - in what ways can covid infect medical staff
+    - for what reasons are hospital workers being exposed to covid
+    - how is covid infecting medical worekrs
+    - how are medical workers being infected
+
+- intent: faq/Societal_Response_-_Time_Taken_to_Share_Genome
+  examples: |
+    - when did the chinese authorities share the sequence of a novel covid
+    - how long did it take to publish the full genomic sequence of covid after it was identified
+    - what was the time needed to get the full sequence of covid
+    - when did we learn the sequence of covid
+    - how long was needed to get covids full genome sequence
+    - how long was the delay between noticing covid and getting its genome
+
+- intent: faq/Individual_Response_-_3D_Printing
+  examples: |
+    - can 3d printing be used to make ppe
+    - how is 3d printing helping with the covid pandemic
+
+- intent: faq/Transmission_-_Ability_to_Infect_Animals
+  examples: |
+    - what animal species can get covid
+    - what animals can get covid
+    - what animals can carry covid
+    - does covid kill animals
+    - which animals are immune covid
+    - which animal gave covid
+    - what types of animals are susceptible to covid
+    - how deadly is covid to pets
+    - can household pets become infected with covid and then transmit it to other pets and human beings
+
+- intent: faq/Reporting_-_Reasons_for_Underestimating_COVID
+  examples: |
+    - why might we underestimate the spread of covid
+    - why are the world politicians underestimating covid
+
+- intent: faq/Testing_-_Availability
+  examples: |
+    - are covid tests available
+    - how can i get tested for covid
+    - how are people tested for covid
+    - are there any tests that i can purchase to test myself at home for covid
+    - is there a test for covid
+    - where can i get tested for covid
+    - are covid tests available
+    - where to get tested for covid
+
+- intent: faq/Nomenclature_-_Biological_Profile
+  examples: |
+    - what is a novel covid
+    - what are covids
+    - what is covid virus
+    - what does it mean that covid is novel
+    - how is the novel covid different
+    - what is a covid
+
+- intent: faq/Societal_Response_-_Fear
+  examples: |
+    - is covid that bad
+    - should i worry about covid
+    - how scared are you about covid
+    - is the fear around the covid overblown justified or too early to say
+    - are you panicking over the covid
+    - are you afraid of the covid virus
+    - since covid came out has it scared you
+    - do you think the covid outbreak is really serious
+    - how concerned are you about the covid that causes covid
+    - are you worried about covid
+
+- intent: faq/Comparison_-_Other_Viruses
+  examples: |
+    - whats the difference between the new covid and other covids
+    - how does covid compare to other viruses
+
+- intent: faq/Transmission_-_Possibility_of_Reinfection
+  examples: |
+    - can people who recover from covid be infected again
+    - after recovering from covid does a person have long term immunity to the virus
+    - if i have recovered from covid will i be immune to it
+    - can covid reinfect
+    - are covid survivors immune
+    - has anyone that recovered from covid been reinfected
+    - has anyone gotten covid twice (re infected)
+    - can one be immune to covid
+    - do people who recovered from covid infection develop resistance against subsequent infections
+    - can you get covid twice or does it cause immunity
+    - is it true that even if you already had the covid you can get it again
+    - can you catch a covid more than once
+    - have the people who were sickened with covid developed immunity
+
+- intent: faq/Prevention_-_Going_Outdoors
+  examples: |
+    - can i go outdoors
+    - can i walk my dog
+    - is it risky to leave my house to exercise
+    - will i get covid if i go outside
+    - should i get out of the house
+    - am i allowed to go out
+
+- intent: faq/Reporting_-_Location_of_COVID_Genome
+  examples: |
+    - what platform was instrumental in rapid sharing of covid information
+    - where can published genomic sequences be found for the covid virus
+
+- intent: faq/Transmission_-_Donated_Blood
+  examples: |
+    - does covid present a risk to the safety of the nations blood supply
+    - is it possible for donated blood to spread covid
+    - can i get infected from donated blood
+    - is it dangerous to get donated blood
+    - is it risky to receive donated blood
+    - how are blood donors being screened
+
+- intent: faq/Societal_Response_-_CDC_Response
+  examples: |
+    - what is cdc doing about covid
+    - how is the cdc handling (or mishandling) covid
+
+- intent: faq/Treatment_-_Plasma
+  examples: |
+    - why is convalescent plasma being investigated to treat covid
+    - can plasma from covid survivors treat others
+    - how successful was plasma therapy against covid
+    - will convalescent plasma therapy be the answer to covid
+    - was plasma successful in treating covid patients
+    - could plasma be a treatment for covid
+
+- intent: faq/Transmission_-_General
+  examples: |
+    - how covid spreads
+    - how covid is transmitted
+    - how does covid spread
+    - how does this covid spread
+    - how does the virus spread
+    - how can the covid spread
+    - how is covid spread
+    - how does covid get spread
+    - how is covid transmitted
+    - what are ways in which covid is transmitted
+    - how covid spreads
+    - how is the novel covid spread
+
+- intent: faq/Symptoms_-_General
+  examples: |
+    - who covid symptoms
+    - what covid symptoms
+    - what covid feels like
+    - what are the symptoms of covid
+    - what are the symptoms and complications that covid can cause
+    - what are the most common symptoms of covid
+    - what symptoms might people experience with covid
+    - what are the symptoms of covid
+    - does covid have any neurological symptoms
+
+- intent: faq/Individual_Response_-_Being_Infected
+  examples: |
+    - what do i do if i think im sick
+    - what should you do if you suspect you have covid
+    - what should i do if i had close contact with someone who has covid
+    - what would you do if you found out you had covid
+    - what are the procedures that i should take if i think i have covid
+    - are there any steps that suspected covid patients should take
+
+- intent: faq/Societal_Effects_-_Education
+  examples: |
+    - will schools be dismissed if there is an outbreak in my community
+    - what will be the educational impacts of covid
+    - should schools close for covid
+
+- intent: faq/Having_COVID_-_Incubation_Period
+  examples: |
+    - how long is the incubation period for covid
+    - what are the descriptive statistics for the incubation period for covid
+    - how long is the incubation time for covid
+    - what is the maximum time that someone can have covid without symptoms
+    - do we know how long covid incubates
+    - what is covids incubation period
+    - how long does it take for infected people to show symptoms
+
+- intent: faq/Transmission_-_Antibody_Immunity
+  examples: |
+    - who covid immunity
+    - do covid antibodies confer immunity
+    - do covid antibodies mean immunity
+    - do covid antibodies provide immunity
+    - will an antibody test show whether im immune and can go back to work
+    - why cant they take antibodies from people who have recovered from covid to create a vaccine
+
+- intent: faq/Origin_-_Time
+  examples: |
+    - when covid started
+    - when was the first local transmission of covid reported in the united states
+    - when was the first case of covid confirmed in the usa
+    - when was the novel covid first reported
+    - when covid start
+    - how long ago was covid first found
+    - what is the start date of covid
+
+- intent: faq/Prevention_-_Protecting_Children
+  examples: |
+    - what steps should parents take to protect children
+    - what steps should parents take to protect children during a community outbreak
+    - how can i protect my child from covid infection
+    - how can i protect my child from a covid infection
+    - what should i do to stop my kids from getting covid
+    - are there any recommended ways to protect children from covid
+    - what is the best way to make sure my child wont get infected
+    - how should parents keep children safe
+
+- intent: faq/Symptoms_-_Stroke
+  examples: |
+    - can covid cause a stroke
+    - is it true young people with covid are also having blood clots and strokes
+    - do covid patients get strokes
+    - if i have covid will i have a stroke
+    - is it possible to get a stroke from covid
+    - can you have a stroke because of covid
+
+- intent: faq/Individual_Response_-_Cancelling_Trips
+  examples: |
+    - should i cancel my trip
+    - if i have a weakened immune system should i cancel my travel plans
+    - is it safe to travel right after the covid pandemic
+    - can i still travel
+    - will i get covid if i go on a trip
+    - is it safe to go on vacation
+    - how risky is it to go on vacation
+
+- intent: faq/Treatment_-_Chloroquine
+  examples: |
+    - are there data showing that chloroquine phosphate or hydroxychloroquine sulfate might benefit patients with covid
+    - may health care providers prescribe chloroquine phosphate or hydroxychloroquine sulfate off label to treat patients with covid
+    - are chloroquine phosphate or hydroxychloroquine sulfate approved by the fda to treat covid
+    - what is the effect of chloroquine(cq) and hydroxychloroquine(hcq) on endosomal maturation and endocytosis in covid treatment
+    - in vitro comparison of antiviral activity of chloroquine(cq) and hydroxychloroquine(hcq) against covid
+    - evidence of hydroxychloroquine(hcq) being anti inflammatory in covid critically ill patients with elevated plasma cytokines
+    - who do you believe about using hydroxychloroquine to treat covid
+    - has chloroquine been found to be effective against covid
+    - what is hydroxylchloroquine and is it effective in the treatment of covid
+    - what is trumps motivation for promoting hydroxychloroquine as a covid treatment
+    - are hydroxychloroquine and azithromycin the best treatment protocol for covid
+    - do chloroquine and azithromycin really work to handle severe cases of covid
+
+- intent: faq/Origin_-_Natural_Reservoir
+  examples: |
+    - what was the covid reservoir
+    - what is a natural reservoir of covid
+
+- intent: faq/Having_COVID_-_Possibility_of_both_Flu_and_COVID
+  examples: |
+    - can i have the flu and covid at the same time
+    - is it possible to get infected with covid and another virus
+    - can you have two viruses at once
+    - will having the flu prevent me from getting covid
+    - can you get covid if you already have the flu
+    - am i at risk for covid if i have the flu
+
+- intent: faq/Societal_Effects_-_Stigma
+  examples: |
+    - why might someone blame or avoid individuals and groups (create stigma) because of covid
+    - do you think there will be more racism during covid
+
+- intent: faq/Reporting_-_Reasons_for_Increasing_Number_of_Cases
+  examples: |
+    - why are we seeing a rise in cases
+    - why we are seeing rising cases due to covid
+
+- intent: faq/Transmission_-_Shopping_Safety
+  examples: |
+    - is grocery shopping safe during the covid pandemic
+    - can i go to the supermarket
+    - what are the most important things i need to know to keep myself and others safe when i go to the grocery store during the pandemic
+    - is it safe to do grocery shopping in costco amidst covid
+    - what is the best way to handle groceries during covid
+    - because of the covid pandemic do you wash your groceries
+    - how do you wash vegetables and fruits these days of the covid epidemic
+    - how do i prevent getting infected with covid from delivered packages and groceries
+    - is it safe to go shopping
+    - is it okay to go buy groceries
+    - will i get covid if i go to the store
+
+- intent: faq/Prevention_-_Remaining_Safe_while_Travelling
+  examples: |
+    - if traveling on a plane how do i stay safe
+    - what are some covid related travel tips
+    - how can you avoid catching covid while travelling
+
+- intent: faq/Testing_-_Anal_Swabs
+  examples: |
+    - what could be the implication of covid virus in anal swabs
+    - what is the relationship between the presence of virus in anal swabs and disease severity in covid
+    - can case severity be predicted based on anal swabs
+    - is there a correlation between severity and anal swab tests
+    - does the presence of covid in anal swabs determine how severe it is
+    - have anal swab tests been linked with case severity
+
+- intent: faq/Symptoms_-_Illness_Caused_by_COVID
+  examples: |
+    - what illness is caused by the covid covid
+    - what is the name of the disease caused buy covid
+    - can covid cause secondary illnesses
+    - are there other illnesses that result from covid
+    - what other disease will covid result in
+    - which disease does covid cause
+
+- intent: faq/Prevention_-_Facemask_Material
+  examples: |
+    - what kind of masks are recommended to protect healthcare workers from covid exposure
+    - which covid mask works
+    - do covid masks have to be a specific material
+    - what type of face mask is recommended to prevent catching covid
+    - are kn 95 masks effective for covid
+    - what materials are you using to make homemade face masks for covid
+    - which face mask protects me from covid
+    - what type of facemask should i use
+    - is there a specific mask i should use to prevent covid
+
+- intent: faq/Transmission_-_Wild_Animals
+  examples: |
+    - can wild animals spread the virus that causes covid to people or pets
+    - can bats in united states spread covid back to people
+    - is it risky to be near wild animals
+    - will i get covid from a wild animal
+    - is it possible for animals in the wilderness to carry covid
+    - should i be concerned about a wild animal giving me covid
+
+- intent: faq/What_is_COVID
+  examples: |
+    - what covid means
+    - what covid
+    - what covid stands for
+    - what is covid disease 2019
+    - what is covid
+    - what does covid mean
+    - what is covid stand for
+
+- intent: faq/Nomenclature_-_Reason_for_Name
+  examples: |
+    - why covid name
+    - why covid name
+    - why covid called covid
+    - why is it called a covid
+    - what is 2019 novel covid
+    - why is the disease being called covid disease 2019
+    - how is the covid referred to
+    - what is the acronym covid
+    - what covid stand for
+    - why covid called novel
+    - how covid got its name
+    - what does the covid part of covid stand for
+    - in covid what is the meaning of 19 here
+    - where does the word covid come from
+    - why is covid called a novel virus
+
+
+
+- intent: ask_bed_hospital
+  examples: |
+    - I want a hospital bed in [Jaipur](available_city)
+    - urgently require a hospital bed for my father
+    - Need hospital bed with oxygen urgently for my colleague in [Delhi](available_city)
+    - Please help him find a  hospitalbed near [Kolkata](available_city)
+    - Urgent requirement of HOSPITAL BED with oxygen  for Mr. Rajeev Bhalla in [Delhi](available_city)
+    - Need hospital bed for COVID patient
+    - Need a hospital bed in [NCR](available_city)?
+    - Need a hospital bed in [Gurgaon](available_city) or [Delhi](available_city) for my uncle.
+    - Need urgent hospitalisation in [Patna](available_city)
+    - Urgently need a hospital bed with oxygen in [Dehradun](available_city).
+
+
+- intent: ask_councelling
+  examples: |
+    - The stress and isolation of COVID
+    - How do pandemics in general affect our mental health?
+    - How can I monitor my mental health?
+    - How I can cope with the stress and anxiety I’m experiencing because of the pandemic?
+    - I feel anxious about catching the virus or transmitting it to a loved one. What can I do?
+    - How do pandemics in general affect our mental health?
+    - What if I’m already living with an anxiety disorder? Media coverage can be especially triggering. How can I cope best?
+    - How do I offer emotional support to friends, family members, or co-workers who have been quarantined?
+    - How can I use distraction to manage difficult thoughts or feelings?
+    - How can I challenge thinking traps?
+    - How can I manage grief?
+    - How can I find a doctor, psychiatrist, psychologist, or counsellor?
+    - How can I see a psychiatrist?
+    - How can I see a psychologist?
+    - How can I see a counsellor?
+    - How can I find a support group?
+    - Where can I find child and youth mental health services?
+    - Where can older adults find help for mental health concerns?
+    - Where can I find self-help materials for depression?
+    - Where can I find self-help materials for anxiety?
+    - Where can I find free counselling?
+
+
