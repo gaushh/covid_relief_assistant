@@ -30,7 +30,7 @@ responses:
   - text: "bats"
   utter_faq/Testing_-_Methodology:
   - text: " there are many tests being used to diagnose covid that the u.s. food & drug administration (fda) has authorized for use during the current emergency. all of these diagnostic tests identify the virus in samples from the respiratory system, such as from nasal or nasopharyngeal swabs, all of these diagnostic tests identify the virus in samples from the respiratory system, such as from nasal or nasopharyngeal swabs. , rrt pcr test,  reverse transcription polymerase chain reaction, the 2109 ncov rna was readily detected in the blood (6 of 57 patients) and the anal swabs (11 of 28 patients). "
-  utster_faq/Comparison_-_Worse_than_Flu:
+  utter_faq/Comparison_-_Worse_than_Flu:
   - text: "yes. research indicates a person with the flu infects about 1.28 other people, on average. but with the novel covid, its likely between 2 and 3 other people., the number of americans killed from covid and those who have died from the flu this season are now comparable. but deaths from covid are happening at a much faster rate. "
   utter_faq/Prevention_-_Time_Until_Vaccine:
   - text: "no. currently, there is not a vaccine for covid., at this time there is no vaccine to prevent covid disease 2019 (covid)., not yet. to date, there is no vaccine and no specific antiviral medicine to prevent or treat covid 2019."
