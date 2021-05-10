@@ -1,155 +1,6 @@
 version: "2.0"
 
 nlu:
-
-
-- synonym: haryana
-  examples: |
-    - haryana
-    - Ambala
-    - Bhiwani
-    - Charkhi Dadri
-    - Faridabad
-    - Fatehabad
-    - Gurugram
-    - Gurgaon
-    - Hisar
-    - Jhajjar
-    - Jind
-    - Kaithal
-    - Karnal
-    - Kurukshetra
-    - Mahendragarh
-    - Nuh
-    - Palwal
-    - Panchkula
-    - Panipat
-    - Rewari
-    - Rohtak
-    - Sirsa
-    - Sonipat
-    - Yamunanagar
-
-- synonym: uttarakhand
-  examples: |
-    - uttarakhand
-    - Dehradun
-    - Haridwar
-    - Chamoli
-    - Rudraprayag
-    - Tehri Garhwal
-    - Uttarkashi
-    - Pauri Garhwal
-    - Almora
-    - Nainital
-    - Pithoragarh
-    - Udham Singh Nagar
-    - Bageshwar
-    - Champawat
-    - uttarakhand
-
-- synonym: Gujrat
-  examples: |
-    - Gujrat
-    - Gandhinagar
-    - Visnagar
-    - Mehsana
-    - Himatnagar
-    - PALANPUR
-    - Modasa
-    - Bayad
-    - Bopal
-    - Nadiad
-    - Anand
-    - Surendranagar
-    - Waghodia
-    - Bharuch
-    - Ankleshwar
-    - Bharuch
-    - Hansot
-    - Godhra
-    - Dahod
-    - Zalod
-    - Chhotaudepur
-    - Valsad
-    - Pardi
-    - Vapi
-    - Navsari
-    - Chikhli
-    - vyara
-    - Savar Kundala
-    - Amreli
-    - Junagadh
-    - Veraval
-    - Rajkot
-    - Bhuj
-    - ahmedabad
-    - morbi
-    - Vadodara
-    - rajkot
-    - Bhavnagar
-    - jamnagar
-    - SMC
-
-
-- synonym: madhya_pradesh
-  examples: |
-    - Madhya Pradesh
-    - MP
-    - Chamo
-    - Agar Malwa
-    - Alirajpur
-    - Anuppur
-    - Ashoknagar
-    - Balaghat
-    - Barwani
-    - Betul
-    - Bhind
-    - Bhopal
-    - Burhanpur
-    - Chhatarpur
-    - Chhindwara
-    - Damoh
-    - Datia
-    - Dewas
-    - Dhar
-    - Dindori
-    - Guna
-    - Gwalior
-    - Harda
-    - Hoshangabad
-    - Indore
-    - Jabalpur
-    - Jhabua
-    - Katni
-    - Khandwa
-    - Khargone
-    - Mandla
-    - Mandsaur
-    - Morena
-    - Narsinghpur
-    - Neemuch
-    - Panna
-    - Raisen
-    - Rajgarh
-    - Ratlam
-    - Rewa
-    - Sagar
-    - Satna
-    - Sehore
-    - Seoni
-    - Shahdol
-    - Shajapur
-    - Sheopur
-    - Shivpuri
-    - Sidhi
-    - Singrauli
-    - Tikamgarh
-    - Ujjain
-    - Umaria
-    - Vidisha
-
-
 - intent: greet
   examples: |
     - hey
@@ -1197,16 +1048,105 @@ nlu:
 
 - intent: ask_bed_hospital
   examples: |
-    - I want a hospital bed in [Jaipur](available_city)
+    - I want a hospital bed in [andhra pradesh](available_city)
     - urgently require a hospital bed for my father
-    - Need hospital bed with oxygen urgently for my colleague in [Delhi](available_city)
-    - Please help him find a  hospitalbed near [Kolkata](available_city)
-    - Urgent requirement of HOSPITAL BED with oxygen  for Mr. Rajeev Bhalla in [Delhi](available_city)
+    - Need hospital bed with oxygen urgently for my colleague in [arunachal pradesh](available_city)
+    - Please help him find a  hospitalbed near [assam](available_city)
+    - Urgent requirement of HOSPITAL BED with oxygen  for Mr. Rajeev Bhalla in [bihar](available_city)
     - Need hospital bed for COVID patient
-    - Need a hospital bed in [NCR](available_city)?
-    - Need a hospital bed in [Gurgaon](available_city) or [Delhi](available_city) for my uncle.
-    - Need urgent hospitalisation in [Patna](available_city)
-    - Urgently need a hospital bed with oxygen in [Dehradun](available_city).
+    - Need a hospital bed in [chhattisgarh](available_city)?
+    - Need a hospital bed in [Rajasthan](available_city) or [Delhi](available_city) for my uncle.
+    - Need urgent hospitalisation in [dadra and nagar haveli](available_city)
+    - Urgently need a hospital bed with oxygen in [daman and diu](available_city).
+    - Need hospital bed for my brother in [delhi](available_city).
+    - Urgent need of hospital bed in [goa](available_city)
+    - Need hospital bed with ventilator support!! URGENT
+    - Urgent!!!!!! Need a non-icu hospital bed in [ahmedabad](available_city) with oxygen for two elderly aged ppl and one with co morbidity( TB) in case of a sudden emergency. Please let me know if there's any leads.
+    - please, Need hospital bed for Prem Chandra bagel. Age 64 covid +ve. Seeking help for my friend family. I am trying from my side.
+    - Need bed for a patient who’s age is 80+ and his oxygen is dropping which is currently at 84. Looking for hospital bed around [gandhinagar](available_city).
+    - Need a ICU hospital bed for dad In (vadodara)[available_city] , preferably private urgently. Heart patient and diabetic. Please amplify.
+    - Need Hospital Bed in [gurugram](available_city)
+    - URGENTLY NEED HOSPITAL BED
+    - my friend's mom is in urgent need of hospital bed in (haryana)[available_city], she is 66 years old and her oxygen level is 68.
+    - Need hospital bed with ventilator for JITENDER KUMAR 52. Covid POSITIVE Spo2 level 60.
+    - Sir Urgently require Hospital Bed for my 56 years old Covid Positive father in [himachal pradesh](available_city)
+    - Need help with oxygen cylinder or hospital bed in [jammu and kashmir](available_city)
+    - Need one hospital bed for COVID patient in [ranchi](available_city), please help!
+    - Rajamma 84 year old, Covid Positive. Pulse rate detirorating. Urgent need of hospital bed in [bangalore](available_city).
+    - Need hospital bed care for my family member in [karnataka](available_city)
+    - Urgent need of oxygen cylinder and hospital bed for MD SHAUKAT ALI. Location: [kerala](available_city)
+    - urgently require hospital bed for 85 year old senior citizen at [ladakh](available_city). Oxygen cylinder arranged but he need intensive care, was positive on 23rd with CT 30 so home treatment was suggested but now health getting worse.
+    - Need a Covid hospital bed with dialysis and ventilator at [madhya pradesh](available_city). Please help
+    - OXYGEN, Hospital BED, PLASMA related help for Covid-19 patient in [nashik](available_city)
+    - In urgent need of a hospital bed in or around [mumbai](available_city) for a 65-year-old diabetic patient with a SpO2 level 82 and high fever.
+    - Urgently need a hospital bed with oxygen for a 63-year old in an ambulance on [panvel](available_city) roads right now. Any leads are welcome!
+    - Need bed for a patient who’s age is 80+ and his oxygen is dropping which is currently at 84. Looking for hospital bed around [pune](available_city) area. Any response is highly appreciative
+    - Urgent need of oxygen or hospital bed patient in [thane](available_city) haryana...
+    - Need hospital bed which having ECMO  technique for my neighbour corona positive patient in [ulhasnagar](available_city) .... Patient condition is critical.  pls help
+    - Urgent need for hospital bed in [maharashtra](available_city) in vijaynagar area, senior citizen with health complications, and rapidly decreasing oxygen levels.
+    - we need a hospital bed in banglore need one ICU BED for 38 Y Old Amit in [manipur](available_city)
+    - My family member is in critical condition need a #bed in [meghalaya](available_city)
+    - My Aunt bhuwa is looking for hospital bed with oxygen in [mizoram](available_city). She is critical. Please help
+    - Guys need help for a hospital bed for a relative whose oxygen levels are dropping . They are based in in [nagaland](available_city)  , the patient is Name - Vijay Chowdhary
+    - Need Urgent hospital bed with oxygen support - Patient Poornima, F 29, Covid affected, near [koraput](available_city), kindly help
+    - Need urgent help with Hospital Bed and Oxygen Cylinder. Patient in Critical situation
+    - Need hospital bed and oxygen for myself. If anyone knows anything about vaccant beds in a Covid hospital at [odisha](available_city) then do let me know please.
+    - Sir need your help in arranging oxygen/oxygen concentrator/hospital bed in [punjab](available_city) for my brother who is having problem in breathing... saturation level is 83. Please please help
+    - Need bed for my wife grand mother 87yrs old  with stroke and bedridden for 3 days  with no oral feed and fluids but today Covid-19 positive at [ludhiana](available_city) City .its urgent
+    - Urgently need an O2 hospital bed for a friend in [rajasthan](available_city). Any leads will be appreciated!
+    - Need a ICU hospital bed for patient, name: Sangamitra Chatterjee,Age .45 years . Admitted in Apollo, [tamil nadu](available_city)  needs  ICU support right now,SpO2-50. But no ICU beds in the hospital.
+    - Sir need your help Kunal Sarangi. Patient is in critical condition. Plz help. Urgently need an ICU bed at any hospital in [telangana](available_city).
+    - I need urgent help that my friend and his family members are corona positive and his mom needs urgent oxygen bed... Currently he is located in [tripura](available_city) with his family. If you have any information about availability of hospital bed with oxygen.
+    - Need a hospital bed with ICU & Ventilator facility in [uttarakhand](available_city). Please contact for any leads.
+    - Need ventilator for a 60 year old patient , hospital bed is there but no ventillator available. Aruna hospital, [uttar pradesh](available_city). Please help.
+    - Need Hospital Bed For My 80 Y Old Grandmother affected by Covid yesterday, She is a heart Patient. So kindly help us to Find out hospital bed in [west bengal](available_city) with oxygen support.
+
+
+- intent: inform
+  examples: |
+    - [andhra pradesh](available_city)
+    - [arunachal pradesh](available_city)
+    - [assam](available_city)
+    - [bihar](available_city)
+    - [chhattisgarh](available_city)
+    - [dadra and nagar haveli](available_city)
+    - [daman and diu](available_city)
+    - [delhi](available_city)
+    - [goa](available_city)
+    - [ahmedabad](available_city)
+    - [gandhinagar](available_city)
+    - [vadodara](available_city)
+    - [gurugram](available_city)
+    - [haryana](available_city)
+    - [himachal pradesh](available_city)
+    - [jammu and kashmir](available_city)
+    - [ranchi](available_city)
+    - [bangalore](available_city)
+    - [karnataka](available_city)
+    - [kerala](available_city)
+    - [ladakh](available_city)
+    - [madhya pradesh](available_city)
+    - [nashik](available_city)
+    - [mumbai](available_city)
+    - [panvel](available_city)
+    - [pune](available_city)
+    - [thane](available_city)
+    - [ulhasnagar](available_city)
+    - [maharashtra](available_city)
+    - [manipur](available_city)
+    - [meghalaya](available_city)
+    - [mizoram](available_city)
+    - [nagaland](available_city)
+    - [koraput](available_city)
+    - [odisha](available_city)
+    - [ludhiana](available_city)
+    - [rajasthan](available_city)
+    - [tamil nadu](available_city)
+    - [telangana](available_city)
+    - [tripura](available_city)
+    - [uttarakhand](available_city)
+    - [uttar pradesh](available_city)
+    - [west bengal](available_city)
 
 
 - intent: ask_councelling
@@ -1232,5 +1172,4 @@ nlu:
     - Where can I find self-help materials for depression?
     - Where can I find self-help materials for anxiety?
     - Where can I find free counselling?
-
 

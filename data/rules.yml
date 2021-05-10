@@ -17,10 +17,16 @@ rules:
   - intent: faq
   - action: utter_faq
 
+- rule: inform
+  steps:
+  - intent: inform
+  - action: utter_inform
+
+
 - rule: Give councelling link
   steps:
   - intent: ask_councelling
-  - action: utter_ask_councelling
+  - action: action_ask_councelling
 
 - rule: Activate city form
   steps:

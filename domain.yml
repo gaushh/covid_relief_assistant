@@ -10,6 +10,8 @@ intents:
   - bot_challenge
   - ask_bed_hospital
   - ask_councelling
+  - inform
+
   - faq:
       use_entities: []
 
@@ -25,6 +27,7 @@ actions:
 - utter_faq
 - action_reset_all_slots
 - action_hospital_bed_search
+- action_ask_councelling
 
 forms:
   city_form:
@@ -42,7 +45,7 @@ responses:
   - text: "Please check here the [Verified NGOs for Mental Health](https://www.instagram.com/p/COj3wBfqyRh/)."
 
   utter_ask_available_city:
-  - text: "Please enter the City"
+  - text: "Please enter the State/District you want hospital bed in"
 
   utter_greet:
   - text: "Hey! How are you?"
@@ -66,6 +69,8 @@ responses:
   utter_submit:
   - text: "Cool"
 
+  utter_inform:
+  - text: "Thanks for informing"
 
 
 
