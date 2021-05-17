@@ -10,4 +10,4 @@ This repo contqains the source code of a AI-based conversational assistant (chat
 I am not deploying this chatbot because of bandwidth constraint, monetary constraint and lack of a proper platform.
 You are welcome to improve the bot or build upon this bot by taking it as a baseline.
 
-If you're an NGO and need help deploying this/such assistant on your platform (website/app), feel free to contact me at gsharma14497@gmail.com. I cant work on it in my spare time free of cost. 
+If you're an NGO and need help deploying this/such assistant on your platform (website/app), feel free to contact me at gsharma14497@gmail.com. I can work on it in my spare time free of cost. 
